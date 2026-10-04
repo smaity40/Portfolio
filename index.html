@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Subhajit Maity | Data & ML Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="bar"></div>
+    <header>
+      <div class="wrap">
+        <a class="logo" href="#home">Subhajit<span class="grad">.</span></a>
+        <nav id="nav">
+          <a href="#about">About</a><a href="#education">Education</a
+          ><a href="#internship">Experience</a><a href="#skills">Skills</a
+          ><a href="#projects">Projects</a><a href="#contact">Contact</a>
+          <button class="icon" id="theme" aria-label="Toggle theme">
+            &#9788;
+          </button>
+          <span id="navLine"></span>
+        </nav>
+        <button class="icon" id="menu" aria-label="Menu">&#9776;</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <div class="wrap hero">
+        <div>
+          <h3><span class="grad">Hello, I'm</span></h3>
+          <h1>Subhajit <span class="grad">Maity</span></h1>
+          <div class="role">
+            I am a <span class="grad" id="typed"></span
+            ><span class="caret"></span>
+          </div>
+          <p>
+            B.Tech Computer Science (Data Science) graduate with hands-on
+            experience in data analysis, requirement analysis, and the software
+            development lifecycle. Skilled in Python, SQL, Excel, and Power BI,
+            with a strong interest in applying data-driven approaches to
+            real-world business problems.
+          </p>
+
+          <div class="row">
+            <a class="btn p" href="#projects">View projects</a>
+            <a class="btn" href="Subhajit_Maity_Resume.pdf" download
+              >Download resume</a
+            >
+          </div>
+          <div class="soc">
+            <a
+              href="https://github.com/smaity40"
+              aria-label="GitHub"
+              title="GitHub"
+              ><svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.16 0 1.56-.02 2.82-.02 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"
+                /></svg
+            ></a>
+            <a
+              href="https://linkedin.com/in/subhajit-maity40"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+              ><svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"
+                /></svg
+            ></a>
+            <a
+              href="mailto:subhajitmaity427@gmail.com"
+              aria-label="Email"
+              title="Email"
+              ><svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <rect x="2.5" y="4.5" width="19" height="15" rx="2.2" />
+                <path d="m3 6 9 7 9-7" /></svg
+            ></a>
+
+            <a
+              href="https://www.instagram.com/subhajit_3.14"
+              aria-label="Instagram"
+              title="Instagram"
+              ><svg
+                viewBox="0 0 24 24"
+                width="19"
+                height="19"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.4" cy="6.6" r="1" /></svg
+            ></a>
+          </div>
+        </div>
+        <!-- PHOTO: save your picture as photo.jpg next to this file -->
+        <div class="photo">
+          <img
+            src="photo.jpeg"
+            alt="Portrait of Subhajit Maity"
+            onerror="
+              this.onerror = null;
+              this.src =
+                'https://avatars.githubusercontent.com/u/205624291?v=4';
+            "
+          />
+          <span class="chip c1">Python</span
+          ><span class="chip c2">Power BI</span
+          ><span class="chip c3">Machine Learning</span>
+        </div>
+      </div>
+    </main>
+
+    <section id="about" class="alt">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>About <span class="grad">me</span></h2>
+        </div>
+        <div class="about rv">
+          <div>
+            <!-- EDIT: your degree line -->
+            <p style="color: var(--b); font-weight: 500; margin-bottom: 0.8rem">
+              B.Tech in CSE (Data Science) student at The Neotia University,
+              Kolkata &middot; OGPA 8.61
+            </p>
+            <p>
+              I analyse data and build machine learning projects. I enjoy
+              finding the story inside a spreadsheet and turning it into
+              something people can act on. Right now I am learning MLOps and
+              FastAPI so I can take models from notebooks to working services.
+            </p>
+            <p style="margin-top: 1rem">
+              I'm looking for a data analyst or machine learning role where I
+              can apply my analytical and SDLC documentation skills from day
+              one.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <b class="grad" data-n="11">0</b><span>GitHub repos</span>
+            </div>
+            <div class="stat">
+              <b class="grad" data-n="3">0</b><span>Featured projects</span>
+            </div>
+            <div class="stat">
+              <b class="grad" data-n="8">0</b><span>Tools and skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>Education & <span class="grad">Certificates</span></h2>
+        </div>
+        <div class="skills">
+          <!-- EDIT: duplicate this block for each degree, newest first -->
+          <div class="box rv">
+            <h3>B.Tech in CSE (Data Science)</h3>
+            <p style="color: var(--muted); margin-bottom: 0.4rem">
+              The Neotia University
+            </p>
+            <p style="color: var(--muted); font-size: 0.9rem">
+              2022 – 2026 &middot; OGPA 8.61
+            </p>
+          </div>
+          <div class="box rv">
+            <h3>Higher Secondary (Class XII), WBCHSE</h3>
+            <p style="color: var(--muted); margin-bottom: 0.4rem">
+              Mundamari Ushananda Vidyapith
+            </p>
+            <p style="color: var(--muted); font-size: 0.9rem">
+              2020 – 2022 &middot; 85.4%
+            </p>
+          </div>
+        </div>
+        <div class="head rv" style="margin: 3rem 0 2rem">
+          <h3 style="font-size: 1.4rem">Certificates</h3>
+          <p style="font-size: 0.95rem">Click a certificate to view it &middot; scroll to see all &rarr;</p>
+        </div>
+        <div class="certrow rv">
+          <!-- EDIT: one block per certificate. Replace data-img with your own image filename, e.g. certs/webel.jpg -->
+          <div
+            class="certcard"
+            data-img="certs/webel-internship.jpg"
+            data-title="Internship"
+            data-platform="WEBEL"
+            onclick="openCert(this)"
+          >
+            <img
+              class="shot"
+              src="certs/webel-internship.jpg"
+              alt="WEBEL internship certificate"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://placehold.co/400x300/141b2d/7c5cff?text=Add+your%0Acertificate+photo';
+              "
+            />
+            <div class="meta">
+              <h4>Internship</h4>
+              <p>Platform: <b>WEBEL</b></p>
+            </div>
+          </div>
+          <div
+            class="certcard"
+            data-img="certs/ailabs-internship.jpg"
+            data-title="Internship"
+            data-platform="AI Labs"
+            onclick="openCert(this)"
+          >
+            <img
+              class="shot"
+              src="certs/ailabs-internship.jpg"
+              alt="AI Labs internship certificate"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://placehold.co/400x300/141b2d/22d3ee?text=Add+your%0Acertificate+photo';
+              "
+            />
+            <div class="meta">
+              <h4>Internship</h4>
+              <p>Platform: <b>AI Labs</b></p>
+            </div>
+          </div>
+          <div
+            class="certcard"
+            data-img="certs/certificate-3.jpg"
+            data-title="Two Days Workshop"
+            data-platform="Two Days Workshop"
+            onclick="openCert(this)"
+          >
+            <img
+              class="shot"
+              src="certs/certificate-3.jpg"
+              alt="Certificate"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://placehold.co/400x300/141b2d/7c5cff?text=Add+your%0Acertificate+photo';
+              "
+            />
+            <div class="meta">
+              <h4>Two Days Workshop</h4>
+              <p>Platform: <b>DATA CORE AILABS</b></p>
+            </div>
+          </div>
+          <div
+            class="certcard"
+            data-img="certs/certificate-3.jpg"
+            data-title="Model Deployment Using FastAPI"
+            data-platform="AILABS"
+            onclick="openCert(this)"
+          >
+            <img
+              class="shot"
+              src="certs/certificate-4.jpg"
+              alt="Certificate"
+              onerror="
+                this.onerror = null;
+                this.src =
+                  'https://placehold.co/400x300/141b2d/22d3ee?text=Add+your%0Acertificate+photo';
+              "
+            />
+            <div class="meta">
+              <h4>Model Deployment Using FastAPI</h4>
+              <p>Platform: <b>AILABS</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate lightbox: opens in-page, no navigation away -->
+    <div id="certLightbox" onclick="if(event.target===this) closeCert()">
+      <div class="lbInner">
+        <button class="lbClose" aria-label="Close" onclick="closeCert()">&times;</button>
+        <img id="lbImg" src="" alt="Certificate preview" />
+        <div class="lbMeta">
+          <div>
+            <h4 id="lbTitle"></h4>
+            <p>Platform: <b id="lbPlatform"></b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="internship" class="alt">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>Internship & <span class="grad">Experience</span></h2>
+        </div>
+        <div class="timeline">
+          <div class="tl rv">
+            <small>June 2025 – July 2025</small>
+            <h3>MLOps Intern &middot; AI Labs</h3>
+            <p>
+              Designed a real-time product recommendation system using
+              collaborative filtering and Faiss for fast similarity search.
+              Implemented Kafka streaming and FastAPI services, tracked
+              experiments with MLflow, versioned data with DVC, and
+              containerized the app with Docker.
+            </p>
+          </div>
+          <div class="tl rv">
+            <small>June 2024 – August 2024</small>
+            <h3>
+              Machine Learning Intern &middot; WEBEL (West Bengal Electronics
+              Industry Development Corp.)
+            </h3>
+            <p>
+              Analyzed BSE and NSE stock market data and built a decision tree
+              model to identify top gainers and losers over daily, weekly and
+              monthly periods, documenting findings for stakeholder review.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>My <span class="grad">skills</span></h2>
+          <p>Tools I use to work with data</p>
+        </div>
+        <div class="skills">
+          <div class="box rv">
+            <h3>Programming</h3>
+            <div class="tags">
+              <span>Python</span><span>Java</span><span>SQL</span
+              ><span>Git & GitHub</span>
+            </div>
+          </div>
+          <div class="box rv">
+            <h3>Data & Analysis</h3>
+            <div class="tags">
+              <span>Pandas</span><span>NumPy</span><span>Data Cleaning</span
+              ><span>EDA</span><span>Statistical Analysis</span>
+            </div>
+          </div>
+          <div class="box rv">
+            <h3>BI & Databases</h3>
+            <div class="tags">
+              <span>Power BI</span><span>Excel (Advanced)</span
+              ><span>Matplotlib</span><span>PostgreSQL</span>
+            </div>
+          </div>
+          <div class="box rv">
+            <h3>ML & Deployment</h3>
+            <div class="tags">
+              <span>Machine Learning</span><span>FastAPI</span><span>MLOps</span
+              ><span>Docker</span><span>MLflow</span><span>DVC</span>
+            </div>
+          </div>
+          <div class="box rv">
+            <h3>Analysis & Docs</h3>
+            <div class="tags">
+              <span>Requirement Analysis</span><span>SDLC</span
+              ><span>Technical Documentation</span><span>Flowcharts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="alt">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>My <span class="grad">projects</span></h2>
+          <p>Selected work from my GitHub</p>
+        </div>
+        <div class="filters rv">
+          <button class="on" data-f="all">All</button
+          ><button data-f="ml">Machine learning</button
+          ><button data-f="data">Data analysis</button>
+        </div>
+        <div class="projects">
+          <article class="box proj rv" data-c="ml">
+            <div class="top">&#129302;</div>
+            <h3>Product Recommendation System</h3>
+            <p>
+              Real-time recommender built during my MLOps internship, using
+              collaborative filtering and Faiss for similarity search, with
+              Kafka streaming and FastAPI serving top-K results.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>Kafka</span>
+            </div>
+            <div class="links">
+              <a
+                href="https://github.com/smaity40/Product-Recommendation-System"
+                >GitHub Repo</a
+              >
+            </div>
+          </article>
+          <article class="box proj rv" data-c="data">
+            <div class="top">&#128717;</div>
+            <h3>Customer Shopping Behavior Analysis</h3>
+            <p>
+              Analyzed customer shopping data with SQL to find purchasing
+              patterns and sales trends, then built an interactive Power BI
+              dashboard to support marketing and inventory decisions.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>SQL</span><span>Power BI</span>
+            </div>
+            <div class="links">
+              <a
+                href="https://github.com/smaity40/Customer_Shopping_Behavior_Analysis"
+                >GitHub Repo</a
+              >
+            </div>
+          </article>
+          <!-- <article class="box proj rv" data-c="ml">
+            <div class="top">&#127760;</div>
+            <h3>Language Detection and Translation System</h3>
+            <p>
+              End-to-end system that detects language from text, images and
+              webcam input using OCR, then translates it to a user-selected
+              target language in real time.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>Streamlit</span
+              ><span>Tesseract OCR</span>
+            </div>
+            <div class="links"><a href="#">GitHub Repo</a></div>
+          </article> -->
+          <article class="box proj rv" data-c="data">
+            <div class="top">&#128202;</div>
+            <h3>Sales Data Analysis and Dashboard</h3>
+            <p>
+              Analysed 2025 sales data for a retail company to find key insights
+              and profitability trends, shown in an interactive dashboard.
+            </p>
+            <div class="tags"><span>Excel</span><span>Power BI</span></div>
+            <div class="links">
+              <a
+                href="https://github.com/smaity40/Sales-Data-Analysis-and-Dashboard"
+                >GitHub Repo </a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="alt">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>Get in <span class="grad">touch</span></h2>
+          <p>Open to data and ML roles, internships and projects</p>
+        </div>
+        <div class="contact rv">
+          <div class="info">
+            <h3>Let's talk</h3>
+            <p>Send me a message and I will get back to you.</p>
+            <p>
+              Email: subhajitmaity427@gmail.com<br />Location: Kolkata, India
+            </p>
+            <div class="soc" style="margin-top: 1.2rem">
+              <a
+                href="https://github.com/smaity40"
+                aria-label="GitHub"
+                title="GitHub"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.16 0 1.56-.02 2.82-.02 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"
+                  /></svg
+              ></a>
+              <a
+                href="https://linkedin.com/in/subhajit-maity40"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"
+                  /></svg
+              ></a>
+
+              <a href="https://www.instagram.com/subhajit_3.14" aria-label="Instagram" title="Instagram"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="19"
+                  height="19"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.4" cy="6.6" r="1" /></svg
+              ></a>
+            </div>
+          </div>
+          <!-- This opens the visitor's email app. Change the address below. -->
+          <form id="form">
+            <input id="fn" placeholder="Your name" required />
+            <input id="fe" type="email" placeholder="Your email" required />
+            <textarea id="fm" placeholder="Your message" required></textarea>
+            <button class="btn p" type="submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        <div class="footwrap">
+          <div>
+            <h4>Subhajit Maity</h4>
+            <p>
+              B.Tech CSE (Data Science) student turning data into clear, useful
+              insights. Based in Kolkata, India.
+            </p>
+            <div class="soc" style="margin-top: 1.1rem">
+              <a
+                href="https://github.com/smaity40"
+                aria-label="GitHub"
+                title="GitHub"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.07.78 2.16 0 1.56-.02 2.82-.02 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"
+                  /></svg
+              ></a>
+              <a
+                href="https://linkedin.com/in/subhajit-maity40"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"
+                  /></svg
+              ></a>
+              <a
+                href="mailto:subhajitmaity427@gmail.com"
+                aria-label="Email"
+                title="Email"
+                ><svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <rect x="2.5" y="4.5" width="19" height="15" rx="2.2" />
+                  <path d="m3 6 9 7 9-7" /></svg
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#internship">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li>subhajitmaity427@gmail.com</li>
+              <li>Kolkata, West Bengal, India</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footbottom">
+        &copy; <span id="y"></span> Subhajit Maity. All rights reserved.
+      </div>
+    </footer>
+
+    <button id="toTop" aria-label="Back to top" title="Back to top">&#8593;</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
